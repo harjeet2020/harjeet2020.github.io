@@ -1,0 +1,61 @@
+/* Resetting the default browser margins */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Imported Fonts */
+@font-face { /* Header Font */
+    font-family: 'DM Serif Display';
+    src: url('fonts/DMSerifDisplay.ttf');
+    font-weight: 600;
+}
+
+@font-face { /* Handwriting Font */
+    font-family: 'Gwendolyn';
+    src: url('fonts/Gwendolyn.ttf');
+    font-weight: 600;
+}
+
+@font-face { /* Body Font */
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat/classic/Montserrat.ttf');
+}
+
+/* Header */
+.header {
+    background-color: #436c6a;
+    text-align: center;
+    height: 90px;
+}
+
+.profile-image {
+    height: 65px;
+    width: auto;
+    border-radius: 8px;
+    display: inline-block;
+    position: absolute;
+    top: 12.5px;
+    left: 12.5px;
+}
+
+#header-title {
+    display: inline-block;
+}
+
+.header h1, .header h6 {
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'DM Serif Display';
+    letter-spacing: 0.15rem;
+    padding-top: 10px;
+}
+
+.header h6 {
+    font-family: Gwendolyn;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
